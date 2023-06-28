@@ -1,0 +1,8 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory `/Users/kaitlynli/Downloads/ECS36A/Li_Homework 5.2 Connect N_2022-03-05_00-15'
+gcc -g -Wall -Werror -c main.c
+gcc -g -Wall -Werror -c setup.c
+gcc -g -Wall -Werror -c game.c
+gcc -g -Wall -Werror -o connectn.out main.o setup.o game.o
+make: Leaving directory `/Users/kaitlynli/Downloads/ECS36A/Li_Homework 5.2 Connect N_2022-03-05_00-15'
+ 
